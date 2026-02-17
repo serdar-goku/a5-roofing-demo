@@ -1,0 +1,1991 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#1 Roofing Contractor in San Antonio | A5 Roofing</title>
+    <meta name="description" content="A5 Roofing is San Antonio's most trusted roofing contractor. 25+ years experience, GAF certified, 4.9-star rated. Free roof assessments. Call (210) 517-1777.">
+    <link rel="icon" href="https://a5roof.com/wp-content/uploads/2024/09/fav.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --navy: #1B2A4A;
+            --navy-light: #243456;
+            --gold: #C9A84C;
+            --gold-light: #D4BA6A;
+            --gold-dark: #B8952F;
+            --cream: #F7F5F0;
+            --white: #FFFFFF;
+            --text: #1B2A4A;
+            --text-secondary: #5A6577;
+            --border: #E5E1D8;
+            --green: #2E7D32;
+            --star: #F5A623;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+            color: var(--text);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* ===== TOP BAR ===== */
+        .topbar {
+            background: var(--navy);
+            color: var(--white);
+            padding: 10px 0;
+            font-size: 14px;
+        }
+
+        .topbar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .topbar a {
+            color: var(--white);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .topbar a:hover { color: var(--gold); }
+
+        .topbar-left {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+        }
+
+        .topbar-left span {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .topbar-right {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .topbar-social a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.1);
+            transition: background 0.2s;
+        }
+
+        .topbar-social a:hover { background: var(--gold); }
+
+        /* ===== NAVIGATION ===== */
+        .navbar {
+            background: var(--white);
+            padding: 16px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.06);
+        }
+
+        .navbar .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .nav-logo img {
+            height: 52px;
+            width: auto;
+            display: block;
+        }
+
+        .nav-logo {
+            flex-shrink: 0;
+            margin-right: 16px;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: var(--text);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 15px;
+            transition: color 0.2s;
+            position: relative;
+        }
+
+        .nav-links a:hover { color: var(--gold); }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--gold);
+            transition: width 0.2s;
+        }
+
+        .nav-links a:hover::after { width: 100%; }
+
+        .nav-cta {
+            background: var(--gold);
+            color: var(--white) !important;
+            padding: 12px 28px;
+            border-radius: 6px;
+            font-weight: 700;
+            text-decoration: none;
+            transition: all 0.2s;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .nav-cta:hover {
+            background: var(--gold-dark);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(201,168,76,0.3);
+        }
+
+        .nav-cta::after { display: none !important; }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            gap: 5px;
+            background: none;
+            border: none;
+            padding: 4px;
+        }
+
+        .hamburger span {
+            display: block;
+            width: 24px;
+            height: 2px;
+            background: var(--navy);
+            transition: all 0.3s;
+        }
+
+        /* ===== HERO ===== */
+        .hero {
+            background: linear-gradient(135deg, var(--navy) 0%, #0F1B33 100%);
+            color: var(--white);
+            padding: 80px 0 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero .container {
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: end;
+        }
+
+        .hero-content {
+            padding-bottom: 60px;
+        }
+
+        .hero-image {
+            position: relative;
+            align-self: end;
+            display: flex;
+            justify-content: center;
+        }
+
+        .hero-image img {
+            width: 100%;
+            max-width: 480px;
+            height: auto;
+            object-fit: cover;
+            border-radius: 16px 16px 0 0;
+            display: block;
+        }
+
+        .hero-image::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 80px;
+            background: linear-gradient(to top, var(--navy), transparent);
+            z-index: 1;
+            border-radius: 0 0 0 0;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(201,168,76,0.15);
+            border: 1px solid rgba(201,168,76,0.3);
+            padding: 8px 16px;
+            border-radius: 100px;
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--gold);
+            margin-bottom: 24px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .hero h1 {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: clamp(40px, 5vw, 64px);
+            font-weight: 900;
+            line-height: 1.1;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 .gold { color: var(--gold); }
+
+        .hero-sub {
+            font-size: 18px;
+            color: rgba(255,255,255,0.8);
+            margin-bottom: 32px;
+            max-width: 540px;
+            line-height: 1.7;
+        }
+
+        .hero-ratings {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+            margin-bottom: 36px;
+            flex-wrap: wrap;
+        }
+
+        .hero-rating-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .hero-rating-item .stars {
+            color: var(--star);
+            font-size: 16px;
+        }
+
+        .hero-rating-item .rating-text {
+            font-size: 13px;
+            color: rgba(255,255,255,0.7);
+        }
+
+        .hero-rating-item .rating-text strong {
+            color: var(--white);
+            font-size: 15px;
+        }
+
+        .hero-btns {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .btn-primary {
+            background: var(--gold);
+            color: var(--white);
+            padding: 16px 36px;
+            border: none;
+            border-radius: 6px;
+            font-weight: 700;
+            font-size: 15px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.2s;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .btn-primary:hover {
+            background: var(--gold-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(201,168,76,0.35);
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: var(--white);
+            padding: 16px 36px;
+            border: 2px solid rgba(255,255,255,0.3);
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 15px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.2s;
+        }
+
+        .btn-outline:hover {
+            border-color: var(--gold);
+            color: var(--gold);
+        }
+
+        /* ===== TRUST BAR ===== */
+        .trust-bar {
+            background: var(--white);
+            padding: 24px 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .trust-bar .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        .trust-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        .trust-icon {
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background: var(--cream);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .trust-icon svg { width: 20px; height: 20px; }
+
+        /* ===== CERTIFICATION BAR ===== */
+        .cert-bar {
+            background: var(--cream);
+            padding: 32px 0;
+        }
+
+        .cert-bar .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        .cert-bar img {
+            height: 60px;
+            width: auto;
+            opacity: 0.85;
+            transition: opacity 0.2s;
+            filter: grayscale(20%);
+        }
+
+        .cert-bar img:hover {
+            opacity: 1;
+            filter: grayscale(0%);
+        }
+
+        /* ===== REVIEWS TICKER ===== */
+        .reviews-ticker {
+            background: var(--navy);
+            padding: 20px 0;
+            overflow: hidden;
+        }
+
+        .ticker-track {
+            display: flex;
+            gap: 48px;
+            animation: ticker 40s linear infinite;
+            white-space: nowrap;
+        }
+
+        .ticker-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-shrink: 0;
+            color: var(--white);
+            font-size: 15px;
+        }
+
+        .ticker-stars { color: var(--star); font-size: 14px; }
+
+        .ticker-name {
+            color: var(--gold);
+            font-weight: 600;
+        }
+
+        .ticker-sep {
+            color: rgba(255,255,255,0.2);
+            font-size: 20px;
+        }
+
+        @keyframes ticker {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+
+        /* ===== SECTION HELPERS ===== */
+        .section { padding: 80px 0; }
+
+        .section-cream { background: var(--cream); }
+
+        .section-navy {
+            background: var(--navy);
+            color: var(--white);
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 56px;
+        }
+
+        .section-label {
+            display: inline-block;
+            font-size: 13px;
+            font-weight: 700;
+            color: var(--gold);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 12px;
+        }
+
+        .section-title {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: clamp(28px, 3.5vw, 42px);
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 16px;
+        }
+
+        .section-subtitle {
+            font-size: 17px;
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+
+        .section-navy .section-subtitle {
+            color: rgba(255,255,255,0.7);
+        }
+
+        /* ===== MEET THE OWNER ===== */
+        .owner-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .owner-image {
+            position: relative;
+            border-radius: 16px;
+            overflow: hidden;
+        }
+
+        .owner-image img {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+            border-radius: 16px;
+        }
+
+        .owner-image-badge {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            background: var(--gold);
+            color: var(--white);
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 14px;
+        }
+
+        .owner-text .section-label { text-align: left; }
+
+        .owner-text .section-title {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        .owner-text p {
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+            line-height: 1.8;
+        }
+
+        .owner-name {
+            font-weight: 700;
+            font-size: 18px;
+            color: var(--text);
+            margin-top: 24px;
+        }
+
+        .owner-role {
+            color: var(--gold);
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .owner-quote {
+            margin-top: 20px;
+            padding: 20px;
+            background: var(--cream);
+            border-left: 4px solid var(--gold);
+            border-radius: 0 8px 8px 0;
+            font-style: italic;
+            color: var(--text-secondary);
+        }
+
+        /* ===== SERVICES ===== */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+
+        .service-card {
+            background: var(--white);
+            border-radius: 12px;
+            padding: 32px 28px;
+            text-align: center;
+            border: 1px solid var(--border);
+            transition: all 0.3s;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .service-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 40px rgba(27,42,74,0.1);
+            border-color: var(--gold);
+        }
+
+        .service-icon {
+            width: 64px;
+            height: 64px;
+            margin: 0 auto 20px;
+            background: linear-gradient(135deg, var(--gold), var(--gold-dark));
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .service-icon svg {
+            width: 30px;
+            height: 30px;
+            color: var(--white);
+        }
+
+        .service-card h3 {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .service-card p {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        /* ===== WHY CHOOSE US ===== */
+        .why-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+        }
+
+        .why-card {
+            text-align: center;
+            padding: 32px 24px;
+        }
+
+        .why-icon {
+            width: 72px;
+            height: 72px;
+            border-radius: 50%;
+            background: rgba(201,168,76,0.12);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+        }
+
+        .why-icon svg { width: 32px; height: 32px; color: var(--gold); }
+
+        .why-card h3 {
+            font-size: 17px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: var(--white);
+        }
+
+        .why-card p {
+            font-size: 14px;
+            color: rgba(255,255,255,0.65);
+            line-height: 1.6;
+        }
+
+        /* ===== PROCESS ===== */
+        .process-steps {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 16px;
+            counter-reset: step;
+        }
+
+        .process-step {
+            text-align: center;
+            padding: 24px 16px;
+            position: relative;
+        }
+
+        .process-num {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: var(--gold);
+            color: var(--white);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 18px;
+            margin: 0 auto 16px;
+        }
+
+        .process-step h4 {
+            font-size: 15px;
+            font-weight: 600;
+            line-height: 1.4;
+        }
+
+        .process-step::after {
+            content: '';
+            position: absolute;
+            top: 40px;
+            right: -8px;
+            width: 16px;
+            height: 2px;
+            background: var(--border);
+        }
+
+        .process-step:last-child::after { display: none; }
+
+        /* ===== TEAM ===== */
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .team-card {
+            text-align: center;
+            background: var(--white);
+            border-radius: 16px;
+            padding: 40px 32px;
+            border: 1px solid var(--border);
+            transition: all 0.3s;
+        }
+
+        .team-card:hover {
+            box-shadow: 0 12px 40px rgba(27,42,74,0.08);
+        }
+
+        .team-photo {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 4px solid var(--cream);
+        }
+
+        .team-card h3 {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+
+        .team-card .team-role {
+            color: var(--gold);
+            font-weight: 600;
+            font-size: 14px;
+            margin-bottom: 12px;
+        }
+
+        .team-card p {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        /* ===== REVIEWS SECTION ===== */
+        .reviews-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+
+        .review-card {
+            background: var(--white);
+            border-radius: 12px;
+            padding: 28px;
+            border: 1px solid var(--border);
+            transition: all 0.3s;
+        }
+
+        .review-card:hover {
+            box-shadow: 0 8px 30px rgba(27,42,74,0.08);
+        }
+
+        .review-stars {
+            color: var(--star);
+            font-size: 16px;
+            margin-bottom: 12px;
+        }
+
+        .review-text {
+            font-size: 15px;
+            color: var(--text-secondary);
+            line-height: 1.7;
+            margin-bottom: 16px;
+            font-style: italic;
+        }
+
+        .review-author {
+            font-weight: 700;
+            font-size: 14px;
+            color: var(--text);
+        }
+
+        .review-source {
+            font-size: 12px;
+            color: var(--text-secondary);
+        }
+
+        /* ===== FAQ ===== */
+        .faq-list {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            margin-bottom: 12px;
+            overflow: hidden;
+            background: var(--white);
+            transition: all 0.3s;
+        }
+
+        .faq-item:hover {
+            border-color: var(--gold);
+        }
+
+        .faq-question {
+            padding: 20px 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 16px;
+            gap: 16px;
+            user-select: none;
+        }
+
+        .faq-question:hover { color: var(--gold); }
+
+        .faq-arrow {
+            width: 24px;
+            height: 24px;
+            flex-shrink: 0;
+            transition: transform 0.3s;
+        }
+
+        .faq-item.open .faq-arrow { transform: rotate(180deg); }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+        .faq-answer-inner {
+            padding: 0 24px 20px;
+            color: var(--text-secondary);
+            line-height: 1.8;
+            font-size: 15px;
+        }
+
+        .faq-item.open .faq-answer {
+            max-height: 300px;
+        }
+
+        /* ===== SERVICE AREAS ===== */
+        .areas-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .area-tag {
+            background: var(--white);
+            border: 1px solid var(--border);
+            padding: 14px 20px;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: 600;
+            font-size: 15px;
+            transition: all 0.2s;
+        }
+
+        .area-tag:hover {
+            border-color: var(--gold);
+            background: rgba(201,168,76,0.06);
+        }
+
+        /* ===== CTA SECTION ===== */
+        .cta-section {
+            background: linear-gradient(135deg, var(--navy) 0%, #0F1B33 100%);
+            color: var(--white);
+            padding: 80px 0;
+        }
+
+        .cta-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .cta-text h2 {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: clamp(28px, 3.5vw, 40px);
+            font-weight: 800;
+            margin-bottom: 16px;
+            line-height: 1.2;
+        }
+
+        .cta-text p {
+            color: rgba(255,255,255,0.75);
+            font-size: 17px;
+            margin-bottom: 24px;
+            line-height: 1.7;
+        }
+
+        .cta-phone {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 24px;
+            font-weight: 800;
+            color: var(--gold);
+            text-decoration: none;
+            margin-bottom: 8px;
+        }
+
+        .cta-phone:hover { color: var(--gold-light); }
+
+        .cta-form {
+            background: var(--white);
+            border-radius: 16px;
+            padding: 36px;
+        }
+
+        .cta-form h3 {
+            color: var(--text);
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+
+        .cta-form .form-sub {
+            color: var(--text-secondary);
+            font-size: 14px;
+            margin-bottom: 24px;
+        }
+
+        .form-group {
+            margin-bottom: 16px;
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 14px 16px;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            font-size: 15px;
+            font-family: inherit;
+            color: var(--text);
+            transition: border-color 0.2s;
+            background: var(--cream);
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: var(--gold);
+            background: var(--white);
+        }
+
+        .form-group textarea { resize: vertical; min-height: 80px; }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+        }
+
+        .form-submit {
+            width: 100%;
+            padding: 16px;
+            background: var(--gold);
+            color: var(--white);
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .form-submit:hover {
+            background: var(--gold-dark);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 16px rgba(201,168,76,0.35);
+        }
+
+        /* ===== SCROLLING BANNER ===== */
+        .scroll-banner {
+            background: var(--gold);
+            padding: 16px 0;
+            overflow: hidden;
+        }
+
+        .scroll-banner-track {
+            display: flex;
+            gap: 0;
+            animation: bannerScroll 20s linear infinite;
+            white-space: nowrap;
+        }
+
+        .scroll-banner-text {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 20px;
+            font-weight: 800;
+            color: var(--white);
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            padding: 0 40px;
+            flex-shrink: 0;
+        }
+
+        .scroll-banner-dot {
+            color: rgba(255,255,255,0.5);
+            padding: 0 8px;
+            flex-shrink: 0;
+        }
+
+        @keyframes bannerScroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+
+        /* ===== FOOTER ===== */
+        .footer {
+            background: #0E1929;
+            color: rgba(255,255,255,0.7);
+            padding: 60px 0 0;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-brand img {
+            height: 40px;
+            margin-bottom: 16px;
+            filter: brightness(0) invert(1);
+        }
+
+        .footer-brand p {
+            font-size: 14px;
+            line-height: 1.7;
+            margin-bottom: 16px;
+        }
+
+        .footer-social {
+            display: flex;
+            gap: 10px;
+        }
+
+        .footer-social a {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.08);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: rgba(255,255,255,0.6);
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+
+        .footer-social a:hover {
+            background: var(--gold);
+            color: var(--white);
+        }
+
+        .footer-col h4 {
+            color: var(--white);
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .footer-col ul {
+            list-style: none;
+        }
+
+        .footer-col ul li { margin-bottom: 10px; }
+
+        .footer-col ul a {
+            color: rgba(255,255,255,0.6);
+            text-decoration: none;
+            font-size: 14px;
+            transition: color 0.2s;
+        }
+
+        .footer-col ul a:hover { color: var(--gold); }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255,255,255,0.08);
+            padding: 20px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 13px;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .footer-bottom a {
+            color: rgba(255,255,255,0.5);
+            text-decoration: none;
+        }
+
+        .footer-bottom a:hover { color: var(--gold); }
+
+        /* ===== SPECIAL OFFERS ===== */
+        .offers-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+            margin-top: 40px;
+        }
+
+        .offer-card {
+            background: var(--white);
+            border: 2px solid var(--border);
+            border-radius: 12px;
+            padding: 32px 24px;
+            text-align: center;
+            transition: all 0.3s;
+        }
+
+        .offer-card:hover {
+            border-color: var(--gold);
+            transform: translateY(-2px);
+        }
+
+        .offer-icon {
+            font-size: 40px;
+            margin-bottom: 16px;
+        }
+
+        .offer-card h3 {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .offer-card p {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        /* ===== MOBILE NAV ===== */
+        .mobile-nav {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--navy);
+            z-index: 9999;
+            padding: 80px 32px 32px;
+        }
+
+        .mobile-nav.open { display: flex; flex-direction: column; }
+
+        .mobile-nav-close {
+            position: absolute;
+            top: 20px;
+            right: 24px;
+            background: none;
+            border: none;
+            color: var(--white);
+            font-size: 32px;
+            cursor: pointer;
+        }
+
+        .mobile-nav a {
+            color: var(--white);
+            text-decoration: none;
+            font-size: 22px;
+            font-weight: 600;
+            padding: 16px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            display: block;
+        }
+
+        .mobile-nav a:hover { color: var(--gold); }
+
+        .mobile-nav .mobile-cta {
+            margin-top: 24px;
+            background: var(--gold);
+            color: var(--white);
+            text-align: center;
+            padding: 16px;
+            border-radius: 8px;
+            font-weight: 700;
+            border: none;
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 1024px) {
+            .hero-grid { grid-template-columns: 1fr; }
+            .hero { padding: 60px 0 0; }
+            .hero-content { padding-bottom: 40px; }
+            .hero-image { max-width: 400px; margin: 0 auto; }
+            .owner-grid, .cta-grid { grid-template-columns: 1fr; }
+            .owner-image img { height: 350px; }
+            .services-grid { grid-template-columns: repeat(2, 1fr); }
+            .why-grid { grid-template-columns: repeat(2, 1fr); }
+            .reviews-grid { grid-template-columns: repeat(2, 1fr); }
+            .process-steps { grid-template-columns: repeat(3, 1fr); }
+            .process-step::after { display: none; }
+            .footer-grid { grid-template-columns: 1fr 1fr; }
+        }
+
+        @media (max-width: 768px) {
+            .topbar .container { justify-content: center; text-align: center; }
+            .topbar-left { flex-wrap: wrap; justify-content: center; }
+            .topbar-right { display: none; }
+
+            .nav-links { display: none; }
+            .hamburger { display: flex; }
+            .nav-logo img { height: 44px; }
+
+            .hero { padding: 40px 0 0; }
+            .hero h1 { font-size: 32px; }
+            .hero-sub { font-size: 16px; }
+            .hero-btns { flex-direction: column; }
+            .hero-btns a { text-align: center; justify-content: center; }
+            .hero-image { max-width: 300px; }
+
+            .section { padding: 56px 0; }
+
+            .services-grid { grid-template-columns: 1fr; }
+            .why-grid { grid-template-columns: 1fr; }
+            .reviews-grid { grid-template-columns: 1fr; }
+            .process-steps { grid-template-columns: repeat(2, 1fr); }
+            .team-grid { grid-template-columns: 1fr; }
+            .areas-grid { grid-template-columns: repeat(2, 1fr); }
+            .offers-grid { grid-template-columns: 1fr; }
+            .form-row { grid-template-columns: 1fr; }
+            .footer-grid { grid-template-columns: 1fr; }
+            .footer-bottom { flex-direction: column; text-align: center; }
+
+            .cert-bar .container { gap: 20px; }
+            .cert-bar img { height: 40px; }
+
+            .trust-bar .container { gap: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- TOP BAR -->
+    <div class="topbar">
+        <div class="container">
+            <div class="topbar-left">
+                <span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                    <a href="tel:2105171777">(210) 517-1777</a>
+                </span>
+                <span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    401 E. Sonterra Blvd. Suite 375, San Antonio, TX 78258
+                </span>
+            </div>
+            <div class="topbar-right">
+                <div class="topbar-social">
+                    <a href="https://www.facebook.com/A5roofing/" target="_blank" aria-label="Facebook">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+                    </a>
+                    <a href="https://www.instagram.com/a5_roofing/" target="_blank" aria-label="Instagram">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCbVWsrFUb_WQFZQ0q5xE3dQ" target="_blank" aria-label="YouTube">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="https://a5roof.com" class="nav-logo">
+                <img src="https://a5roof.com/wp-content/uploads/2024/02/Layer_1.png" alt="A5 Roofing">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="https://a5roof.com/company/">Our Company</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#process">Our Process</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#areas">Service Areas</a></li>
+                <li><a href="#contact" class="nav-cta">Get Free Quote</a></li>
+            </ul>
+            <button class="hamburger" onclick="document.getElementById('mobileNav').classList.add('open')" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- MOBILE NAV -->
+    <div class="mobile-nav" id="mobileNav">
+        <button class="mobile-nav-close" onclick="this.parentElement.classList.remove('open')">&times;</button>
+        <a href="#services" onclick="this.parentElement.classList.remove('open')">Services</a>
+        <a href="https://a5roof.com/company/">Our Company</a>
+        <a href="#reviews" onclick="this.parentElement.classList.remove('open')">Reviews</a>
+        <a href="#process" onclick="this.parentElement.classList.remove('open')">Our Process</a>
+        <a href="#faq" onclick="this.parentElement.classList.remove('open')">FAQ</a>
+        <a href="#areas" onclick="this.parentElement.classList.remove('open')">Service Areas</a>
+        <a href="#contact" class="mobile-cta" onclick="this.parentElement.classList.remove('open')">Get Free Quote</a>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        #1 Rated Roofing Contractor in San Antonio
+                    </div>
+                    <h1>A5 Precision.<br><span class="gold">A5 Results.</span></h1>
+                    <p class="hero-sub">Fast roofing, long-term relationships. With 25+ years of experience, we deliver top-quality roofing backed by industry-leading certifications and the kind of personal service you deserve.</p>
+                    <div class="hero-ratings">
+                        <div class="hero-rating-item">
+                            <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                            <div class="rating-text">
+                                <strong>4.9</strong><br>Based on 51 Reviews
+                            </div>
+                        </div>
+                        <div class="hero-rating-item">
+                            <div>
+                                <img src="https://a5roof.com/wp-content/uploads/2024/02/Gaf.jpg" alt="GAF Certified" style="height: 36px; border-radius: 4px;">
+                            </div>
+                            <div class="rating-text">
+                                <strong>GAF</strong><br>Certified Contractor
+                            </div>
+                        </div>
+                        <div class="hero-rating-item">
+                            <div style="background: var(--gold); width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                            </div>
+                            <div class="rating-text">
+                                <strong>BBB</strong><br>Accredited Business
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-btns">
+                        <a href="#contact" class="btn-primary">
+                            Get a Free Roof Assessment
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                        </a>
+                        <a href="tel:2105171777" class="btn-outline">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                            (210) 517-1777
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://a5roof.com/wp-content/uploads/2024/07/david-1.webp" alt="David Taggart, Founder of A5 Roofing, on a job site">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TRUST BAR -->
+    <div class="trust-bar">
+        <div class="container">
+            <div class="trust-item">
+                <div class="trust-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                </div>
+                Fast, Same-Day Estimates
+            </div>
+            <div class="trust-item">
+                <div class="trust-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="2"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                </div>
+                Owner-Led, Community-Focused
+            </div>
+            <div class="trust-item">
+                <div class="trust-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                </div>
+                Local Experts. Never Outsourced.
+            </div>
+            <div class="trust-item">
+                <div class="trust-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
+                </div>
+                Flexible Financing Options
+            </div>
+            <div class="trust-item">
+                <div class="trust-icon">
+                    <svg viewBox="0 0 24 24" fill="var(--gold)"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                </div>
+                4.9-Star Customer Ratings
+            </div>
+        </div>
+    </div>
+
+    <!-- CERTIFICATION BAR -->
+    <div class="cert-bar">
+        <div class="container">
+            <img src="https://a5roof.com/wp-content/uploads/2024/02/Shingle-Master-Cert.jpg" alt="Shingle Master Certification">
+            <img src="https://a5roof.com/wp-content/uploads/2024/02/Gaf.jpg" alt="GAF Certified">
+            <img src="https://a5roof.com/wp-content/uploads/2024/02/Master-Shingle.jpg" alt="Master Shingle Applicator">
+            <img src="https://a5roof.com/wp-content/uploads/2024/02/certain-Teed.jpg" alt="CertainTeed">
+            <img src="https://a5roof.com/wp-content/uploads/2024/02/gaf-2.jpg" alt="GAF Weather Stopper">
+            <img src="https://a5roof.com/wp-content/uploads/2024/02/system.jpg" alt="System Certification">
+            <img src="https://a5roof.com/wp-content/uploads/2024/02/silver.jpg" alt="Silver Certification">
+        </div>
+    </div>
+
+    <!-- REVIEWS TICKER -->
+    <div class="reviews-ticker">
+        <div class="ticker-track">
+            <div class="ticker-item"><span class="ticker-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> <span>"David and A5 roofing took such great care of us"</span> <span class="ticker-sep">&bull;</span> <span class="ticker-name">Emily Bailey</span></div>
+            <div class="ticker-item"><span class="ticker-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> <span>"One of San Antonio's best roofing companies"</span> <span class="ticker-sep">&bull;</span> <span class="ticker-name">Gator Chris</span></div>
+            <div class="ticker-item"><span class="ticker-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> <span>"Best experience replacing a roof in my lifetime"</span> <span class="ticker-sep">&bull;</span> <span class="ticker-name">Roger Dold</span></div>
+            <div class="ticker-item"><span class="ticker-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> <span>"A5 Roofing puts the pro back in professional"</span> <span class="ticker-sep">&bull;</span> <span class="ticker-name">Karen Katz</span></div>
+            <div class="ticker-item"><span class="ticker-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> <span>"Extremely professional &amp; punctual"</span> <span class="ticker-sep">&bull;</span> <span class="ticker-name">Mary Hopkins</span></div>
+            <div class="ticker-item"><span class="ticker-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> <span>"Stayed on schedule and showed when promised"</span> <span class="ticker-sep">&bull;</span> <span class="ticker-name">Chad McFall</span></div>
+            <!-- Duplicate for seamless loop -->
+            <div class="ticker-item"><span class="ticker-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> <span>"David and A5 roofing took such great care of us"</span> <span class="ticker-sep">&bull;</span> <span class="ticker-name">Emily Bailey</span></div>
+            <div class="ticker-item"><span class="ticker-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> <span>"One of San Antonio's best roofing companies"</span> <span class="ticker-sep">&bull;</span> <span class="ticker-name">Gator Chris</span></div>
+            <div class="ticker-item"><span class="ticker-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> <span>"Best experience replacing a roof in my lifetime"</span> <span class="ticker-sep">&bull;</span> <span class="ticker-name">Roger Dold</span></div>
+            <div class="ticker-item"><span class="ticker-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> <span>"A5 Roofing puts the pro back in professional"</span> <span class="ticker-sep">&bull;</span> <span class="ticker-name">Karen Katz</span></div>
+            <div class="ticker-item"><span class="ticker-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> <span>"Extremely professional &amp; punctual"</span> <span class="ticker-sep">&bull;</span> <span class="ticker-name">Mary Hopkins</span></div>
+            <div class="ticker-item"><span class="ticker-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> <span>"Stayed on schedule and showed when promised"</span> <span class="ticker-sep">&bull;</span> <span class="ticker-name">Chad McFall</span></div>
+        </div>
+    </div>
+
+    <!-- MEET THE OWNER -->
+    <section class="section">
+        <div class="container">
+            <div class="owner-grid">
+                <div class="owner-image">
+                    <img src="https://a5roof.com/wp-content/uploads/2024/05/GetToKnow.png" alt="A5 Roofing team at work on job sites">
+                    <div class="owner-image-badge">25+ Years Experience</div>
+                </div>
+                <div class="owner-text">
+                    <span class="section-label">Meet the Team That Puts People First</span>
+                    <h2 class="section-title">Built on Integrity.<br>Driven by Excellence.</h2>
+                    <p>At A5 Roofing, you are not just a project number. We are a tight-knit team led by founder David Taggart, committed to doing things the right way. We are homeowners too, and we treat your property with the same care we give our own.</p>
+                    <p>David sold his personal Audi A5 to fund the launch of A5 Roofing, re-engineering customer service from the ground up. With over 25 years of hands-on industry experience, his leadership ensures every project meets the highest standards of craftsmanship and care.</p>
+                    <div class="owner-quote">
+                        "The right thing to do will always be the right thing to do."
+                    </div>
+                    <div class="owner-name">David Taggart</div>
+                    <div class="owner-role">Founder &amp; CEO of A5 Roofing</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section section-cream" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Full-Service Residential Roofing</span>
+                <h2 class="section-title">Protecting What Matters Most</h2>
+                <p class="section-subtitle">We specialize in protecting your home. Let us show you what dependable, top-quality roofing looks like.</p>
+            </div>
+            <div class="services-grid">
+                <a href="https://a5roof.com/our-services/" class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M21 10H3M21 10L12 3l-9 7M21 10v10a1 1 0 01-1 1H4a1 1 0 01-1-1V10"/><path d="M9 21V14h6v7"/></svg>
+                    </div>
+                    <h3>Roof Repair</h3>
+                    <p>Not another quick fix. A5 provides long-term solutions to extend the lifespan and ensure the long-term integrity of your home.</p>
+                </a>
+                <a href="https://a5roof.com/our-services/" class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M4 22h16"/><path d="M4 22V8l8-6 8 6v14"/><path d="M9 22v-5h6v5"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                    </div>
+                    <h3>Roof Replacement</h3>
+                    <p>Complete system replacement for damaged or aging roofs. Shingle systems from $3.50/sq ft, metal from $8.50/sq ft.</p>
+                </a>
+                <a href="https://a5roof.com/our-services/" class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 01-2.83 2.83l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 012.83-2.83l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06A1.65 1.65 0 0019.4 9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"/></svg>
+                    </div>
+                    <h3>Roof Maintenance</h3>
+                    <p>Bi-annual and quarterly inspection programs with documentation and limited free repairs. Typically under $300/year.</p>
+                </a>
+                <a href="https://a5roof.com/our-services/" class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                    </div>
+                    <h3>Roof Inspections</h3>
+                    <p>Free comprehensive roof inspections with detailed documentation. Catch problems early before they become costly repairs.</p>
+                </a>
+                <a href="https://a5roof.com/our-services/" class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M19 16.9A5 5 0 0018 7h-1.26a8 8 0 10-11.62 9"/><polyline points="13 11 9 17 15 17 11 23"/></svg>
+                    </div>
+                    <h3>Storm Damage Repair</h3>
+                    <p>Fast response to weather events, high winds, and hail storms. We restore your roof's integrity when it matters most.</p>
+                </a>
+                <a href="https://a5roof.com/our-services/" class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                    </div>
+                    <h3>Insurance Claims Assistance</h3>
+                    <p>We guide you through the entire insurance claims process, ensuring you get the coverage you deserve for your roof.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY CHOOSE A5 -->
+    <section class="section section-navy">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Why More Homeowners Choose A5</span>
+                <h2 class="section-title" style="color: var(--white);">Not All Roofing Companies Are Created Equal</h2>
+                <p class="section-subtitle">We go above and beyond to offer professional roofing backed by industry-leading certifications and the kind of personal service you only get from a local business.</p>
+            </div>
+            <div class="why-grid">
+                <div class="why-card">
+                    <div class="why-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    </div>
+                    <h3>25+ Years Experience</h3>
+                    <p>Decades of hands-on roofing expertise in the Texas market, handling everything from routine repairs to complex installations.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    </div>
+                    <h3>GAF Certified Contractor</h3>
+                    <p>Only 2% of roofers earn GAF certification. This means superior installation quality and the best warranty options available.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                    </div>
+                    <h3>Owner-Led Projects</h3>
+                    <p>Every project is personally overseen by founder David Taggart. You always get direct access to the decision-maker.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
+                    </div>
+                    <h3>Flexible Financing</h3>
+                    <p>Quality roofing should not mean financial stress. We offer financing options to make your roof project affordable.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    </div>
+                    <h3>3 Texas Locations</h3>
+                    <p>Offices in San Antonio, Round Rock, and Fort Worth. Local presence means faster response and community commitment.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    </div>
+                    <h3>4.9-Star Rated</h3>
+                    <p>Consistently rated 5 stars for communication, professionalism, and workmanship by homeowners across Texas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- OUR PROCESS -->
+    <section class="section" id="process">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Our Roofing Process</span>
+                <h2 class="section-title">Simple, Fast, &amp; Stress-Free</h2>
+                <p class="section-subtitle">We know roofing can feel overwhelming. That is why we built a process that makes everything easy and efficient.</p>
+            </div>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="process-num">1</div>
+                    <h4>Call or Fill Out the Form</h4>
+                </div>
+                <div class="process-step">
+                    <div class="process-num">2</div>
+                    <h4>Schedule a Free Roof Inspection</h4>
+                </div>
+                <div class="process-step">
+                    <div class="process-num">3</div>
+                    <h4>Receive a Same-Day Estimate</h4>
+                </div>
+                <div class="process-step">
+                    <div class="process-num">4</div>
+                    <h4>Watch Our Certified Roofers Get to Work</h4>
+                </div>
+                <div class="process-step">
+                    <div class="process-num">5</div>
+                    <h4>Walk Away with Guaranteed Satisfaction</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TEAM -->
+    <section class="section section-cream">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Our Leadership</span>
+                <h2 class="section-title">The People Behind A5 Roofing</h2>
+                <p class="section-subtitle">A tight-knit team committed to doing things the right way.</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-card">
+                    <img src="https://a5roof.com/wp-content/uploads/2024/07/david-1.webp" alt="David Taggart" class="team-photo">
+                    <h3>David Taggart</h3>
+                    <div class="team-role">Founder &amp; CEO</div>
+                    <p>20+ years in roofing and construction. A recognized industry thought leader with speaking engagements and a passion for community impact.</p>
+                </div>
+                <div class="team-card">
+                    <img src="https://a5roof.com/wp-content/uploads/2024/07/jaq-1.webp" alt="Jaqueline Taggart" class="team-photo">
+                    <h3>Jaqueline Taggart</h3>
+                    <div class="team-role">Chief Financial Officer</div>
+                    <p>Background as an electrical engineer and multi-million dollar construction company manager. She drives operational excellence and process optimization.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section class="section" id="reviews">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Real Reviews From Real Homeowners</span>
+                <h2 class="section-title">See Why Homeowners Trust A5</h2>
+                <p class="section-subtitle">Nothing matters more than trust. That is why we let our satisfied customers do the talking.</p>
+            </div>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <div class="review-text">"David and A5 roofing took such great care of us. Highly recommend their services to anyone looking for quality roofing."</div>
+                    <div class="review-author">Emily Bailey</div>
+                    <div class="review-source">Google Review</div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <div class="review-text">"Best experience replacing a roof in my lifetime. The team was professional, efficient, and the results speak for themselves."</div>
+                    <div class="review-author">Roger Dold</div>
+                    <div class="review-source">Google Review</div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <div class="review-text">"A5 Roofing puts the pro back in professional. From start to finish, they exceeded our expectations."</div>
+                    <div class="review-author">Karen Katz</div>
+                    <div class="review-source">Google Review</div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <div class="review-text">"Stayed on schedule and showed when promised. That kind of reliability is hard to find in this industry."</div>
+                    <div class="review-author">Chad McFall</div>
+                    <div class="review-source">Google Review</div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <div class="review-text">"Recommend highly. Garrett and Dave went out of their way to make sure we were completely satisfied."</div>
+                    <div class="review-author">Amanda Centeno</div>
+                    <div class="review-source">Google Review</div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <div class="review-text">"Very helpful when insurance would not pay the claim. They fought for us and got the job done right."</div>
+                    <div class="review-author">Fernando Pequeno</div>
+                    <div class="review-source">Google Review</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section-cream" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Frequently Asked Questions</span>
+                <h2 class="section-title">Got Questions? We Have Answers.</h2>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        How long should my roof last in Texas?
+                        <svg class="faq-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Asphalt shingle roofs typically last 12 to 15 years in the Texas climate. Metal roofing systems can last 25 to 30 years. Factors like weather exposure, maintenance schedule, and installation quality all play a role in your roof's lifespan.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        What causes roof damage?
+                        <svg class="faq-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">The most common causes of roof damage in Texas are weather events, high winds, and hail storms. UV exposure, thermal cycling, and poor ventilation can also degrade roofing materials over time. Regular inspections help catch damage early.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        How much does a new roof cost?
+                        <svg class="faq-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">A new roof typically costs between $4.50 and $12.00 per square foot, depending on materials, design complexity, and roof size. Asphalt shingles run $3.50 to $5.50/sq ft, while metal systems cost $8.50 to $11.50/sq ft. We provide free, same-day estimates so you know exactly what to expect.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        How should I select a roofing contractor?
+                        <svg class="faq-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Look for licensed, insured contractors with manufacturer certifications (like GAF or CertainTeed). Check reviews, ask for references, and verify they are listed in the Roofing Contractors Association of Texas directory. A reputable contractor will provide a detailed written estimate and stand behind their work.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        How do roof warranties work?
+                        <svg class="faq-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">There are two main types of roof warranties: the Manufacturer's Material Warranty (covering 15 to 30 years) and the Contractor's Labor/Installation Warranty (covering 5 to 10 years, extendable up to 30 years for certified contractors like A5 Roofing). Our certifications allow us to offer the best warranty packages available.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICE AREAS -->
+    <section class="section" id="areas">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Proudly Serving Texas</span>
+                <h2 class="section-title">Our Service Areas</h2>
+                <p class="section-subtitle">With three offices across Texas, our team is always close by and ready to help.</p>
+            </div>
+            <div class="areas-grid">
+                <div class="area-tag">San Antonio</div>
+                <div class="area-tag">Round Rock</div>
+                <div class="area-tag">Fort Worth</div>
+                <div class="area-tag">New Braunfels</div>
+                <div class="area-tag">Boerne</div>
+                <div class="area-tag">Schertz</div>
+                <div class="area-tag">Helotes</div>
+                <div class="area-tag">Georgetown</div>
+                <div class="area-tag">Cedar Park</div>
+                <div class="area-tag">Pflugerville</div>
+                <div class="area-tag">Arlington</div>
+                <div class="area-tag">Keller</div>
+            </div>
+            <div style="text-align: center; margin-top: 32px;">
+                <div style="display: flex; justify-content: center; gap: 40px; flex-wrap: wrap; margin-top: 24px;">
+                    <div style="text-align: center;">
+                        <div style="font-weight: 700; font-size: 15px; margin-bottom: 4px;">San Antonio Office</div>
+                        <div style="font-size: 14px; color: var(--text-secondary);">401 E. Sonterra Blvd. Suite 375</div>
+                        <a href="tel:2105171777" style="color: var(--gold); font-weight: 600; text-decoration: none; font-size: 14px;">(210) 517-1777</a>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="font-weight: 700; font-size: 15px; margin-bottom: 4px;">Round Rock Office</div>
+                        <div style="font-size: 14px; color: var(--text-secondary);">1 Chisholm Trail Rd. Suite 450</div>
+                        <a href="tel:5128316950" style="color: var(--gold); font-weight: 600; text-decoration: none; font-size: 14px;">(512) 831-6950</a>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="font-weight: 700; font-size: 15px; margin-bottom: 4px;">Fort Worth Office</div>
+                        <div style="font-size: 14px; color: var(--text-secondary);">9800 Hillwood Parkway Suite 140</div>
+                        <a href="tel:8173029339" style="color: var(--gold); font-weight: 600; text-decoration: none; font-size: 14px;">(817) 302-9339</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA + FORM -->
+    <section class="cta-section" id="contact">
+        <div class="container">
+            <div class="cta-grid">
+                <div class="cta-text">
+                    <span class="section-label">Ready to Get Started?</span>
+                    <h2>Let's Talk Roofing.</h2>
+                    <p>The best time to fix your roof is before the next storm hits. Get started today with a no-pressure consultation and a free roof assessment. We are here to help, and we are just a click or call away.</p>
+                    <a href="tel:2105171777" class="cta-phone">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                        (210) 517-1777
+                    </a>
+                    <div style="margin-top: 32px;">
+                        <div style="font-size: 13px; text-transform: uppercase; letter-spacing: 2px; color: rgba(255,255,255,0.5); margin-bottom: 12px; font-weight: 600;">Our Core Values</div>
+                        <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+                            <span style="background: rgba(201,168,76,0.15); border: 1px solid rgba(201,168,76,0.3); color: var(--gold); padding: 6px 14px; border-radius: 100px; font-size: 13px; font-weight: 500;">Excellence</span>
+                            <span style="background: rgba(201,168,76,0.15); border: 1px solid rgba(201,168,76,0.3); color: var(--gold); padding: 6px 14px; border-radius: 100px; font-size: 13px; font-weight: 500;">Integrity</span>
+                            <span style="background: rgba(201,168,76,0.15); border: 1px solid rgba(201,168,76,0.3); color: var(--gold); padding: 6px 14px; border-radius: 100px; font-size: 13px; font-weight: 500;">Service</span>
+                            <span style="background: rgba(201,168,76,0.15); border: 1px solid rgba(201,168,76,0.3); color: var(--gold); padding: 6px 14px; border-radius: 100px; font-size: 13px; font-weight: 500;">Legacy</span>
+                            <span style="background: rgba(201,168,76,0.15); border: 1px solid rgba(201,168,76,0.3); color: var(--gold); padding: 6px 14px; border-radius: 100px; font-size: 13px; font-weight: 500;">Impact</span>
+                            <span style="background: rgba(201,168,76,0.15); border: 1px solid rgba(201,168,76,0.3); color: var(--gold); padding: 6px 14px; border-radius: 100px; font-size: 13px; font-weight: 500;">Discipline</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cta-form">
+                    <h3>Get Your Free Quote</h3>
+                    <p class="form-sub">Fill out the form below and we will get back to you within 24 hours.</p>
+                    <form action="https://a5roof.com/contacts/" method="GET">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" name="name" placeholder="Full Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" name="phone" placeholder="Phone Number" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="address" placeholder="Property Address">
+                        </div>
+                        <div class="form-group">
+                            <select name="service">
+                                <option value="" disabled selected>How Can We Assist You?</option>
+                                <option value="repair">Roof Repair</option>
+                                <option value="replacement">Roof Replacement</option>
+                                <option value="maintenance">Roof Maintenance</option>
+                                <option value="inspection">Roof Inspection</option>
+                                <option value="storm">Storm Damage</option>
+                                <option value="insurance">Insurance Claim</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Tell us about your project..." rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="form-submit">Get a Free Roof Assessment</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SCROLLING BANNER -->
+    <div class="scroll-banner">
+        <div class="scroll-banner-track">
+            <span class="scroll-banner-text">A5 ROOFING</span><span class="scroll-banner-dot">&bull;</span>
+            <span class="scroll-banner-text">A5 ROOFING</span><span class="scroll-banner-dot">&bull;</span>
+            <span class="scroll-banner-text">A5 ROOFING</span><span class="scroll-banner-dot">&bull;</span>
+            <span class="scroll-banner-text">A5 ROOFING</span><span class="scroll-banner-dot">&bull;</span>
+            <span class="scroll-banner-text">A5 ROOFING</span><span class="scroll-banner-dot">&bull;</span>
+            <span class="scroll-banner-text">A5 ROOFING</span><span class="scroll-banner-dot">&bull;</span>
+            <span class="scroll-banner-text">A5 ROOFING</span><span class="scroll-banner-dot">&bull;</span>
+            <span class="scroll-banner-text">A5 ROOFING</span><span class="scroll-banner-dot">&bull;</span>
+            <span class="scroll-banner-text">A5 ROOFING</span><span class="scroll-banner-dot">&bull;</span>
+            <span class="scroll-banner-text">A5 ROOFING</span><span class="scroll-banner-dot">&bull;</span>
+            <span class="scroll-banner-text">A5 ROOFING</span><span class="scroll-banner-dot">&bull;</span>
+            <span class="scroll-banner-text">A5 ROOFING</span><span class="scroll-banner-dot">&bull;</span>
+            <span class="scroll-banner-text">A5 ROOFING</span><span class="scroll-banner-dot">&bull;</span>
+            <span class="scroll-banner-text">A5 ROOFING</span><span class="scroll-banner-dot">&bull;</span>
+            <span class="scroll-banner-text">A5 ROOFING</span><span class="scroll-banner-dot">&bull;</span>
+            <span class="scroll-banner-text">A5 ROOFING</span><span class="scroll-banner-dot">&bull;</span>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="https://a5roof.com/wp-content/uploads/2024/02/Layer_logo.png" alt="A5 Roofing">
+                    <p>Powered by unwavering commitment to Core Values, creating unparalleled customer experience and a new standard for roofing excellence.</p>
+                    <div style="margin-bottom: 16px;">
+                        <div style="display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 8px;">
+                            <span style="font-size: 13px;">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align: middle; margin-right: 4px;"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                                <a href="tel:2105171777" style="color: rgba(255,255,255,0.7); text-decoration: none;">(210) 517-1777</a>
+                            </span>
+                        </div>
+                        <span style="font-size: 13px;">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align: middle; margin-right: 4px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            401 E. Sonterra Blvd. Suite 375, San Antonio, TX 78258
+                        </span>
+                    </div>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/A5roofing/" target="_blank" aria-label="Facebook">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+                        </a>
+                        <a href="https://www.instagram.com/a5_roofing/" target="_blank" aria-label="Instagram">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCbVWsrFUb_WQFZQ0q5xE3dQ" target="_blank" aria-label="YouTube">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="https://a5roof.com">Home</a></li>
+                        <li><a href="https://a5roof.com/company/">About Us</a></li>
+                        <li><a href="https://a5roof.com/contacts/">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="https://a5roof.com/our-services/">Roof Repair</a></li>
+                        <li><a href="https://a5roof.com/our-services/">Roof Replacement</a></li>
+                        <li><a href="https://a5roof.com/our-services/">Roof Maintenance</a></li>
+                        <li><a href="https://a5roof.com/our-services/">Storm Damage</a></li>
+                        <li><a href="https://a5roof.com/our-services/">Insurance Claims</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Offices</h4>
+                    <ul>
+                        <li><a href="tel:2105171777">San Antonio: (210) 517-1777</a></li>
+                        <li><a href="tel:5128316950">Round Rock: (512) 831-6950</a></li>
+                        <li><a href="tel:8173029339">Fort Worth: (817) 302-9339</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>Copyright &copy; 2026 A5 Roofing LLC. All Rights Reserved.</span>
+                <span>
+                    <a href="https://a5roof.com">Privacy Policy</a> &bull;
+                    <a href="https://a5roof.com">Terms of Service</a>
+                </span>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // FAQ Accordion
+        function toggleFaq(el) {
+            const item = el.parentElement;
+            const isOpen = item.classList.contains('open');
+            // Close all
+            document.querySelectorAll('.faq-item').forEach(function(i) {
+                i.classList.remove('open');
+            });
+            // Open clicked if it was closed
+            if (!isOpen) {
+                item.classList.add('open');
+            }
+        }
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
+            anchor.addEventListener('click', function(e) {
+                var target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    e.preventDefault();
+                    var offset = 80;
+                    var pos = target.getBoundingClientRect().top + window.pageYOffset - offset;
+                    window.scrollTo({ top: pos, behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
